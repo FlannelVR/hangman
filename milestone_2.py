@@ -8,3 +8,7 @@ random.choice
 
 print("Enter a letter")
 guess = input()
+if guess.isalpha() and len(guess) == 1:
+    print("Good Guess!"),
+else:
+    print("Oops! That is not a valid input")
