@@ -4,9 +4,7 @@ word_list = ["mango", "banana", "apple", "cherry", "peach"]
 
 word = (random.choice(word_list))
 
-hangman = True
-
-while hangman == True:
+while True:
     print("Enter a letter")
     guess = input()
     if guess.isalpha() and len(guess) == 1:
